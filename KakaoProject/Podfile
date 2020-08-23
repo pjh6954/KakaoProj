@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.6'
+
+target 'KakaoProject' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'RealmSwift'
+  pod 'SwiftyJSON', '~> 4.0'
+
+  # Pods for KakaoProject
+
+  target 'KakaoProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'KakaoProjectUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
