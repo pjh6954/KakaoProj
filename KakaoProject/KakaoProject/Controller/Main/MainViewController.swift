@@ -62,6 +62,7 @@ class MainViewController : UITableViewController {
         self.searchController.searchBar.delegate = self
         self.searchController.searchBar.placeholder = "찾기"
         self.searchController.searchResultsUpdater = self
+        self.searchController.searchBar.setValue("취소", forKey: "cancelButtonText")
         self.navigationItem.searchController = self.searchController
         self.navigationItem.hidesSearchBarWhenScrolling = false
         self.definesPresentationContext = true // ?

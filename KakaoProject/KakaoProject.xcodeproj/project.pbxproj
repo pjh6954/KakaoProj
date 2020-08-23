@@ -74,15 +74,9 @@
 		726994EC24F21F9D0051E865 /* AppStoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726994EB24F21F9D0051E865 /* AppStoreDetailViewController.swift */; };
 		726994ED24F21F9D0051E865 /* AppStoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726994EB24F21F9D0051E865 /* AppStoreDetailViewController.swift */; };
 		726994EE24F21F9D0051E865 /* AppStoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726994EB24F21F9D0051E865 /* AppStoreDetailViewController.swift */; };
-		728108A824EFFF4800E35194 /* searchResultViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728108A724EFFF4800E35194 /* searchResultViewController.storyboard */; };
-		728108A924EFFF4800E35194 /* searchResultViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728108A724EFFF4800E35194 /* searchResultViewController.storyboard */; };
-		728108AA24EFFF4800E35194 /* searchResultViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728108A724EFFF4800E35194 /* searchResultViewController.storyboard */; };
 		728108AC24EFFF5100E35194 /* searchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728108AB24EFFF5100E35194 /* searchResultViewController.swift */; };
 		728108AD24EFFF5100E35194 /* searchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728108AB24EFFF5100E35194 /* searchResultViewController.swift */; };
 		728108AE24EFFF5100E35194 /* searchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728108AB24EFFF5100E35194 /* searchResultViewController.swift */; };
-		728108B124F004DC00E35194 /* RecentSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728108B024F004DC00E35194 /* RecentSearchViewController.swift */; };
-		728108B224F004DC00E35194 /* RecentSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728108B024F004DC00E35194 /* RecentSearchViewController.swift */; };
-		728108B324F004DC00E35194 /* RecentSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728108B024F004DC00E35194 /* RecentSearchViewController.swift */; };
 		728108B624F0058400E35194 /* SearchSuggestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728108B524F0058400E35194 /* SearchSuggestViewController.swift */; };
 		728108B724F0058400E35194 /* SearchSuggestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728108B524F0058400E35194 /* SearchSuggestViewController.swift */; };
 		728108B824F0058400E35194 /* SearchSuggestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728108B524F0058400E35194 /* SearchSuggestViewController.swift */; };
@@ -148,9 +142,7 @@
 		726994E224F2060D0051E865 /* FloatRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
 		726994E724F21F900051E865 /* AppStoreDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppStoreDetailViewController.storyboard; sourceTree = "<group>"; };
 		726994EB24F21F9D0051E865 /* AppStoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreDetailViewController.swift; sourceTree = "<group>"; };
-		728108A724EFFF4800E35194 /* searchResultViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = searchResultViewController.storyboard; sourceTree = "<group>"; };
 		728108AB24EFFF5100E35194 /* searchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResultViewController.swift; sourceTree = "<group>"; };
-		728108B024F004DC00E35194 /* RecentSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchViewController.swift; sourceTree = "<group>"; };
 		728108B524F0058400E35194 /* SearchSuggestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSuggestViewController.swift; sourceTree = "<group>"; };
 		728108B924F00C6800E35194 /* SearchSuggestViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchSuggestViewController.storyboard; sourceTree = "<group>"; };
 		728108BD24F00F8900E35194 /* SearchSuggestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSuggestTableViewCell.swift; sourceTree = "<group>"; };
@@ -252,7 +244,6 @@
 				7216E3F024ED5C99002320BF /* Main */,
 				72490CF724F0E88E00AE28E2 /* AppstoreSearchResult */,
 				728108A624EFFF2000E35194 /* ResultController */,
-				728108AF24F004BC00E35194 /* RecentSearchView */,
 				728108B424F0055D00E35194 /* SearchSuggest */,
 			);
 			path = Controller;
@@ -357,18 +348,9 @@
 		728108A624EFFF2000E35194 /* ResultController */ = {
 			isa = PBXGroup;
 			children = (
-				728108A724EFFF4800E35194 /* searchResultViewController.storyboard */,
 				728108AB24EFFF5100E35194 /* searchResultViewController.swift */,
 			);
 			path = ResultController;
-			sourceTree = "<group>";
-		};
-		728108AF24F004BC00E35194 /* RecentSearchView */ = {
-			isa = PBXGroup;
-			children = (
-				728108B024F004DC00E35194 /* RecentSearchViewController.swift */,
-			);
-			path = RecentSearchView;
 			sourceTree = "<group>";
 		};
 		728108B424F0055D00E35194 /* SearchSuggest */ = {
@@ -513,7 +495,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				728108BA24F00C6800E35194 /* SearchSuggestViewController.storyboard in Resources */,
-				728108A824EFFF4800E35194 /* searchResultViewController.storyboard in Resources */,
 				726994E824F21F900051E865 /* AppStoreDetailViewController.storyboard in Resources */,
 				7216E3F224ED627B002320BF /* MainViewController.storyboard in Resources */,
 				7216E3CA24ED590B002320BF /* LaunchScreen.storyboard in Resources */,
@@ -538,7 +519,6 @@
 				7216E40024ED6534002320BF /* FirstTabViewController.storyboard in Resources */,
 				7216E3F324ED627B002320BF /* MainViewController.storyboard in Resources */,
 				7216E40424ED6540002320BF /* SecondTabViewController.storyboard in Resources */,
-				728108A924EFFF4800E35194 /* searchResultViewController.storyboard in Resources */,
 				7216E40824ED6549002320BF /* ThirdTabViewController.storyboard in Resources */,
 				72490D0D24F1005100AE28E2 /* AppstoreResultTableViewCell.xib in Resources */,
 			);
@@ -555,7 +535,6 @@
 				7216E40124ED6534002320BF /* FirstTabViewController.storyboard in Resources */,
 				7216E3F424ED627B002320BF /* MainViewController.storyboard in Resources */,
 				7216E40524ED6540002320BF /* SecondTabViewController.storyboard in Resources */,
-				728108AA24EFFF4800E35194 /* searchResultViewController.storyboard in Resources */,
 				7216E40924ED6549002320BF /* ThirdTabViewController.storyboard in Resources */,
 				72490D0E24F1005100AE28E2 /* AppstoreResultTableViewCell.xib in Resources */,
 			);
@@ -653,7 +632,6 @@
 				728108AC24EFFF5100E35194 /* searchResultViewController.swift in Sources */,
 				72490D0924F1005100AE28E2 /* AppstoreResultTableViewCell.swift in Sources */,
 				72490CFE24F0F1B600AE28E2 /* DBManager.swift in Sources */,
-				728108B124F004DC00E35194 /* RecentSearchViewController.swift in Sources */,
 				726994E324F2060D0051E865 /* FloatRatingView.swift in Sources */,
 				7216E41024ED6942002320BF /* MainTabViewController.swift in Sources */,
 				726994EC24F21F9D0051E865 /* AppStoreDetailViewController.swift in Sources */,
@@ -677,7 +655,6 @@
 				7216E3FB24ED62AE002320BF /* Extension.swift in Sources */,
 				728108AD24EFFF5100E35194 /* searchResultViewController.swift in Sources */,
 				72490CFF24F0F1B600AE28E2 /* DBManager.swift in Sources */,
-				728108B224F004DC00E35194 /* RecentSearchViewController.swift in Sources */,
 				72490D0524F0FB1500AE28E2 /* AppSearchData.swift in Sources */,
 				726994E424F2060D0051E865 /* FloatRatingView.swift in Sources */,
 				7216E41124ED6942002320BF /* MainTabViewController.swift in Sources */,
@@ -701,7 +678,6 @@
 				7216E3FC24ED62AE002320BF /* Extension.swift in Sources */,
 				728108AE24EFFF5100E35194 /* searchResultViewController.swift in Sources */,
 				72490D0024F0F1B600AE28E2 /* DBManager.swift in Sources */,
-				728108B324F004DC00E35194 /* RecentSearchViewController.swift in Sources */,
 				72490D0624F0FB1500AE28E2 /* AppSearchData.swift in Sources */,
 				726994E524F2060D0051E865 /* FloatRatingView.swift in Sources */,
 				7216E41224ED6942002320BF /* MainTabViewController.swift in Sources */,

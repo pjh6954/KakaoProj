@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 class AppStoreDetailViewController: UIViewController {
     
+    @IBOutlet weak var SCRContents: UIScrollView!
     @IBOutlet weak var IMVIcon: UIImageView!
     
     @IBOutlet weak var LBName: UILabel!
@@ -40,6 +41,7 @@ class AppStoreDetailViewController: UIViewController {
     
     @IBOutlet weak var STVImageContainer: UIStackView!
     
+    @IBOutlet weak var SCRForImage: UIScrollView!
     @IBOutlet weak var UIVImageContainer: UIView!
     
     @IBOutlet var Const_ShowMoreHeight: NSLayoutConstraint! // default 180
@@ -117,10 +119,13 @@ class AppStoreDetailViewController: UIViewController {
     }
     
     deinit {
-        
+        dprint("Check deinit!")
     }
     
     private func commonInit(){
+        self.SCRContents.showsVerticalScrollIndicator = false
+        self.SCRForImage.showsHorizontalScrollIndicator = false
+        
         self.IMVIcon.layer.masksToBounds = true
         self.IMVIcon.layer.cornerRadius = 10
         
