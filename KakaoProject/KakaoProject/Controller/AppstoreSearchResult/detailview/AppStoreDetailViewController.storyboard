@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Dqj-UU-G7X">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="691"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="721"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HVU-Op-0iY">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="190"/>
@@ -343,10 +343,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z6Z-J5-51J">
-                                                <rect key="frame" x="0.0" y="391" width="414" height="300"/>
+                                                <rect key="frame" x="0.0" y="391" width="414" height="330"/>
                                                 <subviews>
                                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lxn-ho-CAp">
-                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="330"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MRb-ro-uGa">
                                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="300"/>
@@ -379,7 +379,7 @@
                                                             <constraint firstAttribute="bottom" secondItem="MRb-ro-uGa" secondAttribute="bottom" id="V9f-76-VFV"/>
                                                             <constraint firstAttribute="trailing" secondItem="MRb-ro-uGa" secondAttribute="trailing" id="ZKs-ur-6tl"/>
                                                             <constraint firstItem="MRb-ro-uGa" firstAttribute="leading" secondItem="Lxn-ho-CAp" secondAttribute="leading" id="mAe-Kl-KbA"/>
-                                                            <constraint firstItem="MRb-ro-uGa" firstAttribute="height" secondItem="Lxn-ho-CAp" secondAttribute="height" id="yX8-MB-QWg"/>
+                                                            <constraint firstItem="MRb-ro-uGa" firstAttribute="height" secondItem="Lxn-ho-CAp" secondAttribute="height" constant="-30" id="yX8-MB-QWg"/>
                                                         </constraints>
                                                     </scrollView>
                                                 </subviews>
@@ -434,6 +434,8 @@
                         <outlet property="LBUpdateTime" destination="tSi-tM-064" id="UAs-xT-t83"/>
                         <outlet property="LBVersion" destination="zMI-rJ-EMs" id="jHM-5M-5AH"/>
                         <outlet property="RatingDisplay" destination="pba-c2-ZYl" id="AUV-4I-UkK"/>
+                        <outlet property="SCRContents" destination="Zr7-nk-oXC" id="DGv-VL-UMa"/>
+                        <outlet property="SCRForImage" destination="Lxn-ho-CAp" id="8x1-dc-iPI"/>
                         <outlet property="STVImageContainer" destination="Gi8-lU-Rkj" id="tDn-VA-jl0"/>
                         <outlet property="UIVBorderForDesc" destination="V4I-El-syN" id="Qse-Ly-zTE"/>
                         <outlet property="UIVDescContainer" destination="f08-IH-Rmf" id="7OC-cT-y3Z"/>

@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Search-->
+        <!--검색-->
         <scene sceneID="ck4-5Y-6Z5">
             <objects>
                 <tableViewController id="qfO-u6-oQb" customClass="MainViewController" customModule="KakaoProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -52,7 +52,7 @@
                             <outlet property="delegate" destination="qfO-u6-oQb" id="pBB-gj-QBK"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Search" id="Skg-K0-RbW"/>
+                    <navigationItem key="navigationItem" title="검색" id="Skg-K0-RbW"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E6B-MJ-isZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -65,7 +65,7 @@
                     <tabBarItem key="tabBarItem" title="검색" image="magnifyingglass" catalog="system" id="DbQ-WG-wdQ"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="6yq-Hb-XUs">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
