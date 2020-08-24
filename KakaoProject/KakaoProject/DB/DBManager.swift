@@ -60,12 +60,11 @@ class DBManager{
     func addCurrentSearchText(string: String) {
         DispatchQueue.main.async {
             self.getSpecificCurrentSearchTextFromDB(string: string) { (element) in
-                if let _ = element {
+                if let _element = element, _element.text.elementsEqual(string)  {
                     self.deleteCurrentSearchText(string: string)
                 }
                 let currentItem = currentSearchData(text: string)
                 do {
-                    
                     dprint("Check add current text : \(currentItem)")
                     try self.database.write{
                         self.database.add(currentItem)
