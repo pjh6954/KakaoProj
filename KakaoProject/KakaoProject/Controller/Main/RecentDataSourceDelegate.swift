@@ -45,7 +45,7 @@ extension RecentDataSourceDelegate : UITableViewDelegate, UITableViewDataSource 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "recentSearchCell")
         cell?.textLabel?.text = self.recent[indexPath.row]
-        cell?.textLabel?.textColor = UIColor.blue
+        cell?.textLabel?.textColor = UIColor.systemBlue
         return cell!
     }
     

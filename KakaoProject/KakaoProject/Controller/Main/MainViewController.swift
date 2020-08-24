@@ -11,6 +11,7 @@ import UIKit
 
 protocol mainViewDelegate {
     func showAppDetail(appData: AppSearchResponse.AppSearchData)
+    func reloadWhenSearching()
 }
 
 class MainViewController : UITableViewController {
@@ -102,7 +103,14 @@ extension MainViewController : mainViewDelegate {
         //navi.pushViewController(vc, animated: true)
         vc.modalPresentationStyle = .fullScreen
         vc.appData = appData
-        self.navigationController?.pushViewController(vc, animated: true)
+        //self.navigationController?.pushViewController(vc, animated: true)
+        self.navigationController?.pushViewController(viewController: vc, animated: true, completion: {
+        })
+    }
+    func reloadWhenSearching() {
+        DispatchQueue.main.async {
+            self.dataInit()
+        }
     }
 }
 
@@ -120,9 +128,6 @@ extension MainViewController: UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         guard let text = searchBar.text else { return }
         self.searchwithStr(text)
-        
-        self.recentDelegate.reLoadData()
-        self.tableView.reloadThisView()
     }
 }
 

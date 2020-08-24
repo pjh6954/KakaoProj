@@ -104,6 +104,7 @@ class searchResultViewController : ContentsViewController {
             DBManager.sharedInstance.addCurrentSearchText(string: searchStr)
             listShowController.appSearch(string: searchStr)
             self.trans(newState: .render(listShowController))
+            self.delegate?.reloadWhenSearching()
         }
     }
 }
