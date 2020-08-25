@@ -74,6 +74,12 @@
 		726994EC24F21F9D0051E865 /* AppStoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726994EB24F21F9D0051E865 /* AppStoreDetailViewController.swift */; };
 		726994ED24F21F9D0051E865 /* AppStoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726994EB24F21F9D0051E865 /* AppStoreDetailViewController.swift */; };
 		726994EE24F21F9D0051E865 /* AppStoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726994EB24F21F9D0051E865 /* AppStoreDetailViewController.swift */; };
+		7277234124F53E3E00E45147 /* MainViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7277234024F53E3E00E45147 /* MainViewControllerViewModel.swift */; };
+		7277234224F53E3E00E45147 /* MainViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7277234024F53E3E00E45147 /* MainViewControllerViewModel.swift */; };
+		7277234324F53E3E00E45147 /* MainViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7277234024F53E3E00E45147 /* MainViewControllerViewModel.swift */; };
+		7277234524F53F5400E45147 /* AppstoreResultTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7277234424F53F5400E45147 /* AppstoreResultTableViewModel.swift */; };
+		7277234624F53F5400E45147 /* AppstoreResultTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7277234424F53F5400E45147 /* AppstoreResultTableViewModel.swift */; };
+		7277234724F53F5400E45147 /* AppstoreResultTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7277234424F53F5400E45147 /* AppstoreResultTableViewModel.swift */; };
 		728108AC24EFFF5100E35194 /* searchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728108AB24EFFF5100E35194 /* searchResultViewController.swift */; };
 		728108AD24EFFF5100E35194 /* searchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728108AB24EFFF5100E35194 /* searchResultViewController.swift */; };
 		728108AE24EFFF5100E35194 /* searchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728108AB24EFFF5100E35194 /* searchResultViewController.swift */; };
@@ -142,6 +148,8 @@
 		726994E224F2060D0051E865 /* FloatRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
 		726994E724F21F900051E865 /* AppStoreDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppStoreDetailViewController.storyboard; sourceTree = "<group>"; };
 		726994EB24F21F9D0051E865 /* AppStoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreDetailViewController.swift; sourceTree = "<group>"; };
+		7277234024F53E3E00E45147 /* MainViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerViewModel.swift; sourceTree = "<group>"; };
+		7277234424F53F5400E45147 /* AppstoreResultTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppstoreResultTableViewModel.swift; sourceTree = "<group>"; };
 		728108AB24EFFF5100E35194 /* searchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResultViewController.swift; sourceTree = "<group>"; };
 		728108B524F0058400E35194 /* SearchSuggestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSuggestViewController.swift; sourceTree = "<group>"; };
 		728108B924F00C6800E35194 /* SearchSuggestViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchSuggestViewController.storyboard; sourceTree = "<group>"; };
@@ -273,6 +281,7 @@
 				7216E3F124ED627B002320BF /* MainViewController.storyboard */,
 				7216E40F24ED6942002320BF /* MainTabViewController.swift */,
 				7216E3F524ED6285002320BF /* MainViewController.swift */,
+				7277234024F53E3E00E45147 /* MainViewControllerViewModel.swift */,
 				7216E41324ED74AE002320BF /* RecentDataSourceDelegate.swift */,
 			);
 			path = Main;
@@ -321,6 +330,7 @@
 			children = (
 				726994E624F21F6C0051E865 /* detailview */,
 				72490CF824F0E8A500AE28E2 /* AppstoreResultTableViewController.swift */,
+				7277234424F53F5400E45147 /* AppstoreResultTableViewModel.swift */,
 				72490D0824F1005100AE28E2 /* AppstoreResultTableViewCell.xib */,
 				72490D0724F1005100AE28E2 /* AppstoreResultTableViewCell.swift */,
 			);
@@ -626,6 +636,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7277234124F53E3E00E45147 /* MainViewControllerViewModel.swift in Sources */,
 				72490CEF24F0E3F500AE28E2 /* CurrentStr.swift in Sources */,
 				7216E3F624ED6285002320BF /* MainViewController.swift in Sources */,
 				72490D0424F0FB1500AE28E2 /* AppSearchData.swift in Sources */,
@@ -638,6 +649,7 @@
 				7216E3BE24ED590A002320BF /* AppDelegate.swift in Sources */,
 				72490CF924F0E8A500AE28E2 /* AppstoreResultTableViewController.swift in Sources */,
 				728108B624F0058400E35194 /* SearchSuggestViewController.swift in Sources */,
+				7277234524F53F5400E45147 /* AppstoreResultTableViewModel.swift in Sources */,
 				7216E41424ED74AE002320BF /* RecentDataSourceDelegate.swift in Sources */,
 				7216E3FA24ED62AE002320BF /* Extension.swift in Sources */,
 				72490D0224F0F43700AE28E2 /* RealmModels.swift in Sources */,
@@ -657,12 +669,14 @@
 				72490CFF24F0F1B600AE28E2 /* DBManager.swift in Sources */,
 				72490D0524F0FB1500AE28E2 /* AppSearchData.swift in Sources */,
 				726994E424F2060D0051E865 /* FloatRatingView.swift in Sources */,
+				7277234224F53E3E00E45147 /* MainViewControllerViewModel.swift in Sources */,
 				7216E41124ED6942002320BF /* MainTabViewController.swift in Sources */,
 				72490D0A24F1005100AE28E2 /* AppstoreResultTableViewCell.swift in Sources */,
 				7216E3D524ED590B002320BF /* KakaoProjectTests.swift in Sources */,
 				72490CFA24F0E8A500AE28E2 /* AppstoreResultTableViewController.swift in Sources */,
 				728108B724F0058400E35194 /* SearchSuggestViewController.swift in Sources */,
 				7216E41524ED74AE002320BF /* RecentDataSourceDelegate.swift in Sources */,
+				7277234624F53F5400E45147 /* AppstoreResultTableViewModel.swift in Sources */,
 				7216E3F724ED6285002320BF /* MainViewController.swift in Sources */,
 				728108BF24F00F8900E35194 /* SearchSuggestTableViewCell.swift in Sources */,
 				7216E41924ED7509002320BF /* Constants.swift in Sources */,
@@ -680,12 +694,14 @@
 				72490D0024F0F1B600AE28E2 /* DBManager.swift in Sources */,
 				72490D0624F0FB1500AE28E2 /* AppSearchData.swift in Sources */,
 				726994E524F2060D0051E865 /* FloatRatingView.swift in Sources */,
+				7277234324F53E3E00E45147 /* MainViewControllerViewModel.swift in Sources */,
 				7216E41224ED6942002320BF /* MainTabViewController.swift in Sources */,
 				72490D0B24F1005100AE28E2 /* AppstoreResultTableViewCell.swift in Sources */,
 				7216E3E024ED590B002320BF /* KakaoProjectUITests.swift in Sources */,
 				72490CFB24F0E8A500AE28E2 /* AppstoreResultTableViewController.swift in Sources */,
 				728108B824F0058400E35194 /* SearchSuggestViewController.swift in Sources */,
 				7216E41624ED74AE002320BF /* RecentDataSourceDelegate.swift in Sources */,
+				7277234724F53F5400E45147 /* AppstoreResultTableViewModel.swift in Sources */,
 				7216E3F824ED6285002320BF /* MainViewController.swift in Sources */,
 				728108C024F00F8900E35194 /* SearchSuggestTableViewCell.swift in Sources */,
 				7216E41A24ED7509002320BF /* Constants.swift in Sources */,
