@@ -59,6 +59,7 @@ extension SearchSuggestViewController {
             self.currentNames = result.compactMap({ (element) -> String in
                 return element.text
                 }).reversed() // 최근 추가 순으로 보여주기 위해서 reverse사용
+            
             completion(
                 self.currentNames.filter({ (element) -> Bool in
                     element.caseInsensitivePrefix(prefix)
